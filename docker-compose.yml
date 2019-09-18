@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  helloworld-service:
+    image: username/nameofmyimage:1.0.0
+    build: .
+    command: python app.py
+    ports:
+      - 8484:5151
